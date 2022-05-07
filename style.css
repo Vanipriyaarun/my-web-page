@@ -1,0 +1,35 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body{
+  background-color:#0ff;
+  color:black;
+  font-family: 'Unna', serif;
+  font-size:30px;
+  text-align:justify;
+}
+h1
+{
+  text-align:center;
+}
+.smaller-image{
+  width:800px;
+  border-radius:100px;
+}
+iframe{
+    border-width: 0px;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
